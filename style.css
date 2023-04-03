@@ -1,0 +1,38 @@
+h1 {
+    color: blueviolet;
+    background-color: greenyellow;
+}
+
+p {
+    color: rgb(100, 200, 150);
+    background-color: rgb(50, 70, 90);
+}
+
+q {
+    color: #eeff2e;
+    background-color: #ff4eee;
+}
+
+/* opacity */
+
+p.one {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+
+p.two {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* hsl and hsla */
+
+body {
+    background-color: #C8C8C8;
+    background-color: hsl(0, 0%, 78%);
+}
+
+p {
+    background-color: #ffffff;
+    background-color: hsla(0, 100%, 100%, 0.5);
+}
